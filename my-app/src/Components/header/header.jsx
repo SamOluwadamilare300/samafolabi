@@ -44,15 +44,15 @@ function Header() {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#portfolio" className="nav__link">
-                                <i className="uil uil-scenery nav__icon"></i>Portfolio
+                            <a href="#contact" className="nav__link">
+                                <i className="uil uil-message nav__icon"></i>Contact
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link">
-                                <i className="uil uil-message nav__icon"></i>Contact
-                            </a>
+                            <button className="nav__link" id="meet-button">
+                              <a href="#"><i className="uil uil-scenery nav__icon"></i>Schedule Meeting</a>
+                            </button>
                         </li>
                     </ul>
 
