@@ -51,7 +51,7 @@ function Header() {
 
                         <li className="nav__item">
                             <button className="nav__link" id="meet-button">
-                              <a href="#"><i className="uil uil-scenery nav__icon"></i>Schedule Meeting</a>
+                              <a href="https://calendly.com/" target="https://calendly.com/damilarea71/schedule-meeting" ><i className="uil uil-scenery nav__icon"></i>Schedule Meeting</a>
                             </button>
                         </li>
                     </ul>

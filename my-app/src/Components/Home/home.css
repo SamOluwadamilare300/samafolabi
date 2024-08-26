@@ -6,7 +6,9 @@
 
 .home__scroll{
     margin-left: 9.25rem;
+    
 }
+
 
 .wheel{
     animation: scroll 2s ease infinite;
@@ -35,6 +37,7 @@
 }
 
 
+
 .home__content{
     grid-template-columns: 116px repeat(2, 1fr);
     padding: 5.5rem;
@@ -54,8 +57,8 @@
     color: var(--title-color);
 }
 
-.home__social-icon:hover{
-    color: var(--title-color);
+.home__social-icon:hover {
+    color: var(--title-color-dark);
 }
 
 .home__title{
@@ -71,9 +74,9 @@
 
 .home__subtitle{
     position: relative;
-    font-size: var(--h3-font-size);
-    padding-left: 2.4rem;
-    font-weight: var(--font-normal);
+    font-size: var(--h4-font-size);
+    padding-left: 5.4rem;
+    font-weight: 400px;
     margin-bottom: var(--mb-1);
     font-family: var(--body-font);
 
@@ -85,7 +88,7 @@
     position: absolute;
     width: 70px;
     height: 1px;
-    background-color: var(--text-color);
+    background-color: black;
     left: 0;
     top: 1rem;
 }
@@ -157,6 +160,7 @@
   .home__scroll{
     margin-left: 7.5rem;
 
+
   }
 
   }
@@ -199,8 +203,7 @@
         width: 22px;
         height: 22px;
     }
-     
-  
+
     
   }
 

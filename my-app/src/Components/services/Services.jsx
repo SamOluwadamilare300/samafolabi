@@ -16,7 +16,7 @@ const Services = () => {
             <div className="services__container container grid">
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-brackets-curly services__icon"></i>
+                    <i className="uil uil-code-branch services__icon"></i>
                         <h3 className="services__title">Front-end <br /> Development</h3>
                     </div>
 
@@ -27,7 +27,7 @@ const Services = () => {
 
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-brackets-curly services__icon"></i>
+                    <i className="uil uil-server services__icon"></i>
                         <h3 className="services__title">Back-end <br /> Development</h3>
                     </div>
 
@@ -38,7 +38,7 @@ const Services = () => {
 
                 <div className="services__content">
                     <div>
-                        <i className="uil uil-brackets-curly services__icon"></i>
+                    <i className="uil uil-mobile-android services__icon"></i>
                         <h3 className="services__title">App <br /> Development</h3>
                     </div>
 
@@ -53,9 +53,9 @@ const Services = () => {
                 <div className="services__modal active-modal">
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-                        <h3 className="services__modal-title">Front-end Developer</h3>
+                        <h3 className="services__modal-title">Front-end Development</h3>
                         <p className="services__modal-description">
-                            Services with more 2 years of experience. Providing quality work to clients and companies.
+                        With expertise in front-end development, I deliver high-quality user interfaces and seamless UX interactions for clients and companies.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -68,7 +68,7 @@ const Services = () => {
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I create UX element interaction.</p>
+                                <p className="services__modal-info">I ensure responsive design across devices.</p>
                             </li>
                         </ul>
                     </div>
@@ -80,9 +80,9 @@ const Services = () => {
                 <div className="services__modal active-modal">
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-                        <h3 className="services__modal-title">Back-end Developer</h3>
+                        <h3 className="services__modal-title">Back-end Development</h3>
                         <p className="services__modal-description">
-                            Services with more 2 years of experience. Providing quality work to clients and companies.
+                        I specialize in developing the server-side logic, integrating databases, and ensuring robust server security with experience.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -107,22 +107,23 @@ const Services = () => {
                 <div className="services__modal active-modal">
                     <div className="services__modal-content">
                         <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-                        <h3 className="services__modal-title">App Developer</h3>
+                        <h3 className="services__modal-title">App Development</h3>
                         <p className="services__modal-description">
-                            Services with more 2 years of experience. Providing quality work to clients and companies.
+                        To create robust mobile applications with seamless API integrations and ensure they 
+                        work flawlessly across different platforms.
                         </p>
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I develop mobile applications.</p>
+                                <p className="services__modal-info">To develop mobile applications.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I integrate APIs.</p>
+                                <p className="services__modal-info">To integrate APIs.</p>
                             </li>
                             <li className="services__modal-service">
                                 <i className="uil uil-check-circle services__modal-icon"></i>
-                                <p className="services__modal-info">I ensure cross-platform compatibility.</p>
+                                <p className="services__modal-info">To ensure cross-platform compatibility.</p>
                             </li>
                         </ul>
                     </div>
