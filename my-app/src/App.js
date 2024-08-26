@@ -1,11 +1,11 @@
 import React from 'react';
 import "./App.css";
-import Header from './Components/header/Header';
+import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Skills from './Components/skills/Skills'
-import Services from './Components/services/Services';
-import Qualification from './Components/qualification/Qualification';
+import Services from './Components/Services/Services';
+import Qualification from './Components/Qualification/Qualification';
 import Testimonials from './Components/testimonials/Testimonials';
 import Contact from './Components/contact/Contact';
 import Footer from './Components/footer/Footer';
